@@ -86,7 +86,9 @@
   function renderEpisodios() {
     const cont = document.getElementById("episode-list");
     if (!cont || typeof EPISODIOS === "undefined") return;
-    const orden = [...EPISODIOS].sort((a, b) => b.numero - a.numero);
+    const orden = [...EPISODIOS].sort(
+      (a, b) => b.temporada - a.temporada || b.numero - a.numero
+    );
     orden.forEach((ep) => cont.appendChild(tarjetaEpisodio(ep)));
   }
 

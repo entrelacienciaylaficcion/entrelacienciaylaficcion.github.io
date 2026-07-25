@@ -25,6 +25,24 @@
 
 const EPISODIOS = [
   {
+    numero: 1,
+    temporada: 2,
+    titulo: "¿Sueñan los androides con ovejas eléctricas?",
+    autor: "Philip K. Dick",
+    fecha: "2026-07-25",
+    youtube: "bXBzcQLugcY",
+    resumen:
+      "¿Puede una máquina sentir empatía? Philip K. Dick pone esa pregunta en el centro de la novela que inspiró Blade Runner. Diseccionamos la obra y la ciencia que late bajo sus páginas: qué es la empatía, si puede medirse y dónde termina lo humano y empieza lo artificial.",
+    libros: [
+      {
+        titulo: "¿Sueñan los androides con ovejas eléctricas?",
+        autor: "Philip K. Dick",
+        enlace:
+          "https://www.buscalibre.cl/libro-suenan-los-androides-con-ovejas-electricas/9786287624313/p/64601733?afiliado=9e32f901bc34a4172ee5",
+      },
+    ],
+  },
+  {
     numero: 5,
     temporada: 1,
     titulo: "Ecotopia",
