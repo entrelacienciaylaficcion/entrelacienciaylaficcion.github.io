@@ -1,0 +1,8 @@
+# Claves SSH (no subir nunca)
+id_ed25519_eyf
+id_ed25519_eyf.pub
+
+# Claves privadas en general
+*.pem
+id_ed25519*
+id_rsa*
