@@ -25,6 +25,23 @@
 
 const EPISODIOS = [
   {
+    numero: 2,
+    temporada: 2,
+    titulo: "La Metamorfosis",
+    autor: "Franz Kafka",
+    fecha: "2026-10-11",
+    youtube: "KiocZLHoUEY",
+    resumen:
+      "¿Qué pasaría si mañana despiertas convertido en un insecto? ¿Tu familia te seguiría queriendo o te desecharía por ya no ser útil? A partir de la obra de Kafka analizamos la utilidad de las personas, la alienación en el trabajo y los roles sociales, problemáticas que siguen muy latentes en el siglo XXI.",
+    libros: [
+      {
+        titulo: "La Metamorfosis",
+        autor: "Franz Kafka",
+        enlace: null,
+      },
+    ],
+  },
+  {
     numero: 1,
     temporada: 2,
     titulo: "¿Sueñan los androides con ovejas eléctricas?",
